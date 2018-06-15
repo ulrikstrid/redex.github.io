@@ -37,7 +37,7 @@
   "main": "n/a",
   "scripts": {
     "start": "bsb -make-world -w",
-    "build": "gatsby build",
+    "build": "bsb -make-world && gatsby build",
     "develop": "gatsby develop",
     "test": "validate_sources",
     "clean": "rm -rf data/generated",
